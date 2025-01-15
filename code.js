@@ -21,4 +21,4 @@ class StringCalc {
         return numberArray.reduce((sum,num) => sum + (isNan(num) ? 0 : num), 0);
     }
 }
-MediaSourceHandle.exports = StringCalc;
+module.exports = StringCalc;
